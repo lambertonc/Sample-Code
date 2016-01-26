@@ -1,0 +1,8 @@
+﻿Build started 9/8/2015 1:08:38 PM.
+     1>Project "C:\Users\Connor\Desktop\dll_load\dll_load\dll_load.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.InvalidPlatform.Targets(21,7): error MSB8006: The Platform for project 'dll_load.vcxproj' is invalid.  Platform='Xbox 360'. This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Platform.
+     1>Done Building Project "C:\Users\Connor\Desktop\dll_load\dll_load\dll_load.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

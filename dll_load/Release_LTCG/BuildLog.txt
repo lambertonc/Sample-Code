@@ -1,0 +1,35 @@
+﻿Build started 9/10/2015 7:01:15 PM.
+     1>Project "C:\Users\Connor\Desktop\dll_load\dll_load\dll_load.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release_LTCG\dll_load.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /D _LIB /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Yu"StdAfx.h" /Fp"C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.pch" /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP dll_load.cc /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\include\xbox\xbox_intellisense_platform.h"
+         dll_load.cc
+       Link:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.lib" /NOLOGO /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /IMPLIB:"C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.lib" Release_LTCG\dll_load.obj
+         Release_LTCG\stdafx.obj /dll /XEX:NO
+         Generating code
+         Finished generating code
+       ImageXex:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.dll" /config:"xex.xml" "C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.lib" 
+         Microsoft(R) Xbox 360 Image File Builder Version 2.0.20871.0
+         (c)2011 Microsoft Corporation. All rights reserved.
+         
+       DeployToHardDrive:
+         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\xbecopy.exe /nologo
+         /progress
+         /forcecopy
+         "/xbox:10.11.41.244"
+         "C:\Users\Connor\Desktop\dll_load\dll_load\Release_LTCG\dll_load.dll" "HDD:\Games\Modern Warfare 2\dll_load.dll"
+         
+          Xbox 360 TitleCopy Tool (2.0.20871.0)
+         Copyright (c) 2000-2011  Microsoft Corporation.  All rights reserved.
+       FinalizeBuildStatus:
+         Deleting file "Release_LTCG\dll_load.unsuccessfulbuild".
+         Touching "Release_LTCG\dll_load.lastbuildstate".
+     1>Done Building Project "C:\Users\Connor\Desktop\dll_load\dll_load\dll_load.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.22
